@@ -9,7 +9,7 @@ spring:
   profiles: dev
   application:
     name: microservicecloud-config-client
-eurake:
+eureka:
   client:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
