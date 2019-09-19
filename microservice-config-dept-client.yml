@@ -21,7 +21,7 @@ spring:
       max-total: 5
       max-wait-millis: 200
 mybatis:
-  mapper-locations: classpath:mapper/mapper/*.xml
+  mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.zsg.springcloud.entities
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
@@ -57,7 +57,7 @@ spring:
       max-total: 5
       max-wait-millis: 200
 mybatis:
-  mapper-locations: classpath:mapper/mapper/*.xml
+  mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.zsg.springcloud.entities
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
